@@ -1,0 +1,2 @@
+model,dv,iv,n_obs,or_per_year,or_ci_low,or_ci_high,p_value,mcfadden_r2
+logistic_year_trend,is_solopreneur_candidate,year_c (anio centrado),47322,0.8270031419017909,0.8179140463489182,0.8361932403147295,8.80672509522652e-249,0.018275826930426065

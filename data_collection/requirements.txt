@@ -1,0 +1,6 @@
+requests>=2.31
+python-dotenv>=1.0
+praw>=7.7
+pandas>=2.0
+tenacity>=8.2
+kagglehub>=0.3

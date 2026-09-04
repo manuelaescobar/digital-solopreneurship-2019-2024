@@ -1,0 +1,2 @@
+model,dv,iv,n_imputations,coef_log,se,ci_low,ci_high,p_value,pct_income_diff
+MICE_OLS_pooled_Rubin,log_income,is_solopreneur_candidate,40,-0.23501183165173906,0.01187598073720026,-0.258288326177743,-0.2117353371257351,3.7152537574236566e-87,-20.943850407489727

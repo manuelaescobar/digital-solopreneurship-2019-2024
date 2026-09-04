@@ -1,0 +1,2 @@
+model,dv,iv,n_obs,or_per_year,or_ci_low,or_ci_high,p_value
+logistic_year_trend_country_controlled,is_solopreneur_candidate,year_c (controlando pais top20+Other),47322,0.8292697484405606,0.8199879435055168,0.8386566182165384,4.3014344226721685e-233

@@ -1,0 +1,21 @@
+# Secrets — never commit real API keys
+data_collection/.env
+
+# Raw ingested data: large, and fully regenerable from the public APIs
+# via the scripts in data_collection/scripts/ — kept out of git to keep
+# the repository lean; see data_collection/README.md to regenerate.
+data_collection/data/raw/
+
+# Cleaned analysis-ready tables: also regenerable via
+# analysis/scripts/02_build_clean_subtables.py from the raw data above.
+analysis/data/*.csv
+
+# Kaggle cache (Stack Overflow Survey mirror), never part of the repo
+.cache/
+**/kagglehub/
+
+# OS/editor/tooling cruft
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
