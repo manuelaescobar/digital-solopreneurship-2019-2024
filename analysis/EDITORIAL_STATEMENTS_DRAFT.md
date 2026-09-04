@@ -36,26 +36,46 @@ institution's specific requirement.
 > Statistics (https://www.census.gov/programs-surveys/nonemployer-statistics.html).
 > Individual-level data are from the Stack Overflow Developer Survey,
 > publicly archived at https://survey.stackoverflow.co and mirrored on
-> Kaggle. The cleaned, analysis-ready datasets and code used to produce
-> them are available at [REPOSITORY/DOI — pending deposit; see Code
-> Availability below].
+> Kaggle. The unified entity table and all code used to collect, clean,
+> and analyze these data are available at
+> https://github.com/manuelaescobar/digital-solopreneurship-2019-2024
+> [DOI: pending — see Code Availability below for the one remaining
+> manual step to mint it].
 
 The source URLs above are real and match what this project actually used.
-The bracketed repository/DOI is pending because the cleaned data has not
-yet been deposited anywhere with a permanent identifier.
+The GitHub repository is live and public now (created and pushed during
+this session). The DOI is pending only the Zenodo linkage step described
+below, which requires your own Zenodo login and cannot be completed by me.
 
 ## Code Availability Statement
 
 > All data collection, cleaning, and analysis code is available at
-> [REPOSITORY URL/DOI — e.g., GitHub with a Zenodo-issued DOI]. The
+> https://github.com/manuelaescobar/digital-solopreneurship-2019-2024
+> (archived with a permanent DOI at Zenodo: [DOI pending, see below]). The
 > pipeline runs end-to-end from raw API ingestion through the reported
 > statistical models without manual data editing.
 
-**Action needed before this can be finalized**: the project currently
-lives only in local folders (`data_collection/`, `analysis/`), not in a
-version-controlled, publicly hosted repository. Depositing it (e.g.,
-GitHub → Zenodo for a DOI) is a prerequisite for this statement to be true
-rather than aspirational — I can help set this up when you're ready.
+**Done**: the repository is created, public, and pushed
+(https://github.com/manuelaescobar/digital-solopreneurship-2019-2024) — 45
+files, secrets and large raw/regenerable data excluded via `.gitignore`
+(confirmed no API key leaked).
+
+**One remaining step only you can do (Zenodo requires your own login and
+cannot be automated by me):**
+1. Go to https://zenodo.org and log in — easiest via "Log in with GitHub"
+   using this same GitHub account.
+2. Go to https://zenodo.org/account/settings/github/ and toggle **ON** the
+   `digital-solopreneurship-2019-2024` repository in the list.
+3. Back on GitHub, go to the repo's **Releases** page
+   (https://github.com/manuelaescobar/digital-solopreneurship-2019-2024/releases/new),
+   create a new release (e.g., tag `v1.0.0`, title "Initial submission
+   snapshot"), and publish it.
+4. Zenodo automatically archives that release within a minute or two and
+   mints a DOI. Refresh your Zenodo account page to find it, and paste it
+   into the two statements above and into `README.md`'s citation section.
+
+Tell me once you've done this and give me the DOI — I'll update every
+statement and the README with it immediately.
 
 ## Conflict of Interest Declaration
 
