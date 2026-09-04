@@ -49,6 +49,8 @@ $$
 *Note.* Country and year fixed effects included; standard errors clustered
 by country. *N* = 4,119 country-years, 213 countries. *R*²(within) = .173.
 
+![Figure 1. Internet penetration and self-employment rate, raw country-year associations, 2005-2024 (N = 4,119). The fitted line shows the unadjusted (no fixed effects) trend for illustration only; the reported model (Table 1) is the two-way fixed-effects estimate.](outputs/figures/macro_internet_vs_selfemployment.png)
+
 Internet penetration was a statistically significant predictor of the
 self-employment rate, *b* = −0.028, 95% CI [−0.051, −0.004], *p* = .020,
 and the model accounted for a moderate share of within-country variance,
@@ -100,6 +102,8 @@ $$
 *Note.* *N* = 47,322 for both models. Country-adjusted model includes the
 20 most-represented countries as dummy-coded covariates plus an "Other"
 category. McFadden *R*² = .018 (unadjusted model).
+
+![Figure 2. Solopreneur ("Just me") share among self-employed/freelance Stack Overflow Developer Survey respondents, by year (2019-2024), with 95% Wilson confidence intervals. N per year as in Table 2.](outputs/figures/trend_solopreneur_share.png)
 
 The odds of solopreneur status decreased by a factor of 0.827 per survey
 year, 95% CI [0.818, 0.836], *p* < .001, corresponding to the marked
